@@ -1,0 +1,175 @@
+body{
+    line-height: 1.7;
+}
+
+.headpart{
+
+}
+
+h1{
+     
+    font-family: "Rock 3D", system-ui;
+    font-weight: 400;
+    font-size: 100px;
+    font-style: normal;
+    text-align: center;
+    padding-top: -100px;
+    margin-top: -30px;
+
+}
+h2{
+    padding-top: -100px;
+    margin-top: -80px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.button-search{
+    background-color: rgba(0, 149, 255, 0.76);
+    margin-right: 30px;
+    margin-left: 10px;
+    border-radius: 8px;
+    padding: 5px 20px ;
+    font-size: 15px;
+    transition: opacity 0.2s ease-in-out;
+   
+}
+.button-search:hover {
+    opacity: 0.9;
+}
+
+#search-input{
+    
+    
+    border-radius: 8px;
+    padding: 5px 20px ;
+    font-size: 15px;
+    box-shadow: 0 0 6px rgb(15, 15, 15);
+    color:black;
+   
+
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.image-results{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto ;
+   
+}
+.image-result {
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: black;
+    overflow: hidden;
+    margin-bottom: 60px;
+    margin: 15px;
+    overflow:hidden ;
+
+
+}
+
+.image-result img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.2s ease-in-out;
+   
+}
+
+.image-result:hover img{
+    opacity: 0.8;
+}
+
+.image-result a{
+    font-size: 15px;
+    display: block;
+    text-transform: capitalize; 
+    color: black;
+    text-decoration: none;
+
+}
+.load-button{
+    
+    text-align: center;
+    padding: auto;
+    margin: 30px 20px;
+  
+   
+}
+
+.load-buttons{
+    background-color: rgba(0, 149, 255, 0.76);
+    
+    border-radius: 8px;
+    padding: 5px 20px ;
+    font-size: 15px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.load-button:hover{
+    opacity: 0.8;
+}
+
+footer {
+    background-color: #f6f5f5;
+    color: #0f0f0f;
+    padding: 20px 0;
+    text-align: center;
+  
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.footer-section {
+   
+    padding: 70px;
+    margin: 0  20px;
+}
+
+.footer-section h2 {
+    color: #131313;
+    font-size: 18px;
+}
+
+.footer-bottom {
+    background-color: #f8f7f7;
+    color:#0f0f0f
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    
+    font-size: 14px;
+}
+
+@media screen and (max-width:768px) {
+    .image-result{
+        width:40%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .image-result{
+        width:100%;
+    }
+}
